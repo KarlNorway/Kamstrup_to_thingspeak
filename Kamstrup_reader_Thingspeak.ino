@@ -42,15 +42,15 @@ float celsius;
 
 //Thingspeak Definitions
 const char* server = "api.thingspeak.com";
-String apiKey = "980F8WB2OXMIWCEX";  // Write key for your channel
+String apiKey = "";  // Write key for your channel
 
 /* 
  *  WiFi definitions
  * Enter in your SSID and Passkey
  */
 
-const char* MY_SSID = "no connection";    
-const char* MY_PWD = "focus2000";
+const char* MY_SSID = "";    
+const char* MY_PWD = "";
 
 // Kamstrup optical IR serial
 #define KAMTIMEOUT 300  // Kamstrup timeout after transmit
